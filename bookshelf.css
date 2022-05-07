@@ -98,9 +98,8 @@
   flex-wrap: wrap;
   justify-content: center;
   border-style: dotted;
-  border-color: #512DA8;
+  border-color: #512da8;
   border-top: 1px;
-
 }
 
 .book {
@@ -112,7 +111,6 @@
   transform-style: preserve-3d;
   transform: translateZ(0) rotateY(0);
   transition: transform 1s;
-
 }
 
 .side {
@@ -128,7 +126,7 @@
 .spine {
   position: relative;
   width: 50px;
-  height: 280px;
+  height: 240px;
   /* Patterns from: https://projects.verou.me/css3patterns/ */
   background-image: var(--tartan);
   transform: rotateY(0deg) translateZ(0px);
@@ -136,6 +134,7 @@
 
 .spine-title {
   margin: 6px;
+  margin-bottom: 30px;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -145,7 +144,6 @@
   text-orientation: mixed;
   font-family: Ubuntu;
   font-weight: bold;
-
 }
 
 .spine-author {
@@ -180,7 +178,6 @@
   left: 50px;
   transform: rotateY(90deg) translateZ(0);
   transition: transform 1s;
-  
 }
 
 .book:hover {
@@ -191,6 +188,6 @@
 
 body {
   font-family: Ubuntu;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   text-align: center;
 }
