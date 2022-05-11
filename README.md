@@ -1,7 +1,7 @@
 # Virtual Bookshelf (Turkish)
 This is a simple visualisation of books on a bookshelf using some CSS transforms to give the effect of picking out the book when you hover over it.
 
-I use it on my [project site](1711.github.io/virtual-bookshelf/) to track what books I've read. It integrates nicely with static site generators, and well, just about anything since it's all vanilla JS, CSS and HTML.
+I use it on my [project site](https://burcia1711.github.io/virtual-bookshelf/) to track what books I've read. It integrates nicely with static site generators, and well, just about anything since it's all vanilla JS, CSS and HTML.
 
 ![Example](https://i.ibb.co/X5t1Fct/Screenshot-2022-05-11-at-12-41-51.png)
 
