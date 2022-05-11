@@ -182,12 +182,14 @@
 }
 
 .coverTitle{
-  text-align: center;
-  padding-top: 15px;
+  align-self: flex-start;
+  padding-top: 25px;
+
 }
 
 .coverAuthor{
-  padding: 75px;
+  align-self: flex-end;
+  padding-top: 165px;
 }
 
 .book:hover {
