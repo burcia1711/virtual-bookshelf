@@ -3,15 +3,15 @@
 :root {
   --argyle: repeating-linear-gradient(
       120deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.1) 1px,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1) 1px,
       transparent 1px,
       transparent 60px
     ),
     repeating-linear-gradient(
       60deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.1) 1px,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1) 1px,
       transparent 1px,
       transparent 60px
     ),
@@ -35,48 +35,48 @@
   --tartan: repeating-linear-gradient(
       transparent,
       transparent 50px,
-      rgba(0, 0, 0, 0.4) 50px,
-      rgba(0, 0, 0, 0.4) 53px,
+      rgba(0, 0, 0, 0.1) 50px,
+      rgba(0, 0, 0, 0.1) 53px,
       transparent 53px,
       transparent 63px,
-      rgba(0, 0, 0, 0.4) 63px,
-      rgba(0, 0, 0, 0.4) 66px,
+      rgba(0, 0, 0, 0.1) 63px,
+      rgba(0, 0, 0, 0.1) 66px,
       transparent 66px,
       transparent 116px,
-      rgba(0, 0, 0, 0.5) 116px,
-      rgba(0, 0, 0, 0.5) 166px,
-      rgba(255, 255, 255, 0.2) 166px,
-      rgba(255, 255, 255, 0.2) 169px,
-      rgba(0, 0, 0, 0.5) 169px,
-      rgba(0, 0, 0, 0.5) 179px,
-      rgba(255, 255, 255, 0.2) 179px,
-      rgba(255, 255, 255, 0.2) 182px,
-      rgba(0, 0, 0, 0.5) 182px,
-      rgba(0, 0, 0, 0.5) 232px,
+      rgba(0, 0, 0, 0.1) 116px,
+      rgba(0, 0, 0, 0.1) 166px,
+      rgba(0, 0, 0, 0.1) 166px,
+      rgba(0, 0, 0, 0.1) 169px,
+      rgba(0, 0, 0, 0.2) 169px,
+      rgba(0, 0, 0, 0.2) 179px,
+      rgba(0, 0, 0, 0.1) 179px,
+      rgba(0, 0, 0, 0.1) 182px,
+      rgba(0, 0, 0, 0.1) 182px,
+      rgba(0, 0, 0, 0.1) 232px,
       transparent 232px
     ),
     repeating-linear-gradient(
       270deg,
       transparent,
       transparent 50px,
-      rgba(0, 0, 0, 0.4) 50px,
-      rgba(0, 0, 0, 0.4) 53px,
+      rgba(0, 0, 0, 0.3) 50px,
+      rgba(0, 0, 0, 0.3) 53px,
       transparent 53px,
       transparent 63px,
-      rgba(0, 0, 0, 0.4) 63px,
-      rgba(0, 0, 0, 0.4) 66px,
+      rgba(0, 0, 0, 0.3) 63px,
+      rgba(0, 0, 0, 0.3) 66px,
       transparent 66px,
       transparent 116px,
-      rgba(0, 0, 0, 0.5) 116px,
-      rgba(0, 0, 0, 0.5) 166px,
-      rgba(255, 255, 255, 0.2) 166px,
-      rgba(255, 255, 255, 0.2) 169px,
-      rgba(0, 0, 0, 0.5) 169px,
-      rgba(0, 0, 0, 0.5) 179px,
-      rgba(255, 255, 255, 0.2) 179px,
-      rgba(255, 255, 255, 0.2) 182px,
-      rgba(0, 0, 0, 0.5) 182px,
-      rgba(0, 0, 0, 0.5) 232px,
+      rgba(0, 0, 0, 0.2) 116px,
+      rgba(0, 0, 0, 0.2) 166px,
+      rgba(0, 0, 0, 0.1) 166px,
+      rgba(0, 0, 0, 0.1) 169px,
+      rgba(0, 0, 0, 0.1) 169px,
+      rgba(0, 0, 0, 0.1) 179px,
+      rgba(0, 0, 0, 0.1) 179px,
+      rgba(0, 0, 0, 0.1) 182px,
+      rgba(0, 0, 0, 0.1) 182px,
+      rgba(0, 0, 0, 0.1) 232px,
       transparent 232px
     ),
     repeating-linear-gradient(
@@ -89,6 +89,7 @@
       transparent 5px,
       rgba(0, 0, 0, 0.2) 5px
     );
+
 }
 
 .bookshelf {
@@ -98,7 +99,7 @@
   flex-wrap: wrap;
   justify-content: center;
   border-style: dotted;
-  border-color: #512da8;
+  border-color: GRAY;
   border-top: 1px;
 }
 
@@ -128,7 +129,7 @@
   width: 50px;
   height: 240px;
   /* Patterns from: https://projects.verou.me/css3patterns/ */
-  background-image: var(--tartan);
+  background-image: var(--argyle);
   transform: rotateY(0deg) translateZ(0px);
 }
 
@@ -139,7 +140,7 @@
   top: 0px;
   left: 0px;
   font-size: 18px;
-  color: white;
+  color: black;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-family: Ubuntu;
@@ -148,7 +149,7 @@
 
 .spine-author {
   position: absolute;
-  color: white;
+  color: black;
   font-size: 11px;
   bottom: 2px;
   text-align: center;
@@ -161,7 +162,7 @@
   width: 50px;
   height: 190px;
   top: -2px; /* hmm, why -2 and not 0? */
-  background-image: linear-gradient(90deg, white 90%, gray 10%);
+  background-image: linear-gradient(90deg, black 90%, lightGray 10%);
   background-size: 5px 5px;
   transform: rotateX(90deg) translateZ(95px) translateY(-95px);
 }
@@ -171,8 +172,8 @@
   height: 280px;
   top: 0px;
   /* background-image: url("https://picsum.photos/190/280"); */
-  background-image: var(--tartan);
-  background-color: black;
+  background-image: var(--tablecloth);
+  background-color: white;
   background-size: contain;
   background-repeat: round;
   left: 50px;
@@ -186,8 +187,9 @@
     translateX(-30px);
 }
 
+
 body {
   font-family: Ubuntu;
-  background-color: #eeeeee;
+  background-color: whitesmoke;
   text-align: center;
 }
