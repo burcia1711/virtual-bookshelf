@@ -1,9 +1,9 @@
 # Virtual Bookshelf
 This is a simple visualisation of books on a bookshelf using some CSS transforms to give the effect of picking out the book when you hover over it.
 
-I use it on my [personal site](https://petargyurov.com) to track what books I've read. It integrates nicely with static site generators, and well, just about anything since it's all vanilla JS, CSS and HTML.
+I use it on my [project site](1711.github.io/virtual-bookshelf/) to track what books I've read. It integrates nicely with static site generators, and well, just about anything since it's all vanilla JS, CSS and HTML.
 
-![Example](https://i.imgur.com/6u0CySS.png)
+![Example](https://ibb.co/m5crzQDhttps://ibb.co/my4khf4)
 
 **How do I add more books?**
 
