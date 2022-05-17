@@ -3,7 +3,7 @@ This is a simple visualisation of books on a bookshelf using some CSS transforms
 
 I use it on my [project site](https://burcia1711.github.io/virtual-bookshelf/) to track what books I've read. It integrates nicely with static site generators, and well, just about anything since it's all vanilla JS, CSS and HTML.
 
-![Example](https://i.ibb.co/X5t1Fct/Screenshot-2022-05-11-at-12-41-51.png)
+![Example](https://i.ibb.co/W0mXjLw/Screenshot-2022-05-11-at-12-41-36.png)
 
 **How do I add more books?**
 
